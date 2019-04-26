@@ -1,0 +1,349 @@
+costs:
+    c_missing_instance_week: 20
+    c_missing_instance_day: 20
+    c_relative: 40
+    c_preferred_interval: 10
+    c_excluded_interval: 30
+    c_activity_distance: 10
+activity_list:
+    # ==== TV series activities ====
+    - activity:
+        name: TV_series1
+        scheduling_type: exact_interval
+        interval:
+            day: 1
+            start: 16:00
+            end: 17:00
+ 
+    - activity:
+        name: TV_series2
+        scheduling_type: exact_interval
+        interval:
+            day: 2
+            start: 16:00
+            end: 17:00
+
+    - activity:
+        name: TV_series3
+        scheduling_type: exact_interval
+        interval:
+            day: 3
+            start: 16:00
+            end: 17:00
+
+    - activity:
+        name: TV_series4
+        scheduling_type: exact_interval
+        interval:
+            day: 4
+            start: 16:00
+            end: 17:00
+
+    - activity:
+        name: TV_series5
+        scheduling_type: exact_interval
+        interval:
+            day: 5
+            start: 16:00
+            end: 17:00
+
+    - activity:
+        name: TV_series6
+        scheduling_type: exact_interval
+        interval:
+            day: 6
+            start: 16:00
+            end: 17:00
+
+    - activity:
+        name: TV_series7
+        scheduling_type: exact_interval
+        interval:
+            day: 7
+            start: 16:00
+            end: 17:00
+
+    # ==== Appointment activities ====
+    - activity:
+        name: Haircut
+        scheduling_type: exact_interval
+        interval:
+            day: 1
+            start: 11:00
+            end: 12:00
+
+    - activity:
+        name: Doctor_visit
+        scheduling_type: exact_interval
+        interval:
+            day: 2
+            start: 12:00
+            end: 13:00
+
+    - activity:
+        name: Walk
+        scheduling_type: exact_interval
+        interval:
+            day: 4
+            start: 11:00
+            end: 13:00
+
+    - activity:
+        name: Bike_ride
+        scheduling_type: exact_interval
+        interval:
+            day: 5
+            start: 10:00
+            end: 12:00
+
+
+    # ==== Meals activities =====
+    - activity:
+        name: Breakfast
+        scheduling_type: nr_instances
+        instances_per_week: 7
+        instances_per_day: 1
+        duration:
+            value: 30
+            unit: minute
+        preferred_intervals:
+            - interval:
+                start: 7:00
+                end: 10:00
+
+
+    - activity:
+        name: Lunch
+        scheduling_type: nr_instances
+        instances_per_week: 7
+        instances_per_day: 1
+        duration:
+            value: 1
+            unit: hour
+        preferred_intervals:
+            - interval:
+                start: 12:00
+                end: 15:00
+
+    - activity:
+        name: Dinner
+        scheduling_type: nr_instances
+        instances_per_week: 7
+        instances_per_day: 1
+        duration:
+            value: 1
+            unit: hour
+        preferred_intervals:
+            - interval:
+                start: 17:00
+                end: 20:00
+
+
+    # ==== Exercise activities ====
+    - activity:
+        name: Health_exercise_1
+        scheduling_type: nr_instances
+        instances_per_week: 3
+        instances_per_day: 1
+        duration:
+            value: 30
+            unit: minute
+        preferred_intervals:
+            - interval:
+                start: 8:00
+                end: 10:00
+            - interval:
+                start: 16:00
+                end: 18:00
+        minimal_distance_from:
+            - activity:
+                activity_type: self
+                value: 1
+                unit: day
+            - activity:
+                activity_type: Breakfast
+                value: 1
+                unit: hour
+            - activity:
+                activity_type: Lunch
+                value: 1
+                unit: hour
+            - activity:
+                activity_type: Dinner
+                value: 1
+                unit: hour
+
+        excluded_intervals:
+            - interval:
+                day: 7
+                start: 8:00
+                end: 23:59
+
+    - activity:
+        name: Health_exercise_2
+        scheduling_type: nr_instances
+        instances_per_week: 2
+        instances_per_day: 1
+        duration:
+            value: 1
+            unit: hour
+        preferred_intervals:
+            - interval:
+                start: 8:00
+                end: 12:00
+            - interval:
+                start: 16:00
+                end: 20:00
+
+        excluded_intervals:
+            - interval:
+                day: 6
+                start: 7:00
+                end: 23:59
+            - interval:
+                day: 7
+                start: 7:00
+                end: 23:59
+
+
+        minimal_distance_from:
+            - activity:
+                activity_type: self
+                value: 2
+                unit: day
+            - activity:
+                activity_type: Breakfast
+                value: 1
+                unit: hour
+            - activity:
+                activity_type: Lunch
+                value: 1
+                unit: hour
+            - activity:
+                activity_type: Dinner
+                value: 1
+                unit: hour
+
+    - activity:
+        name: Health_exercise_3
+        scheduling_type: nr_instances
+        instances_per_week: 3
+        instances_per_day: 1
+        duration:
+            value: 1
+            unit: hour
+        preferred_intervals:
+            - interval:
+                start: 16:00
+                end: 20:00
+
+        excluded_intervals:
+            - interval:
+                day: 6
+                start: 7:00
+                end: 23:59
+            - interval:
+                day: 7
+                start: 7:00
+                end: 23:59
+
+
+        minimal_distance_from:
+            - activity:
+                activity_type: self
+                value: 1
+                unit: day
+            - activity:
+                activity_type: Dinner
+                value: 1
+                unit: hour
+
+    # ==== Medication activities ====
+    - activity:
+        name: Medication1
+        scheduling_type: relative
+        instances_per_week: 3
+        instances_per_day: 1
+        after:
+            activity_type: Breakfast
+            relative_within:
+                value: 15
+                unit: minute
+        duration:
+            value: 10
+            unit: minute
+
+
+    - activity:
+        name: Medication2
+        scheduling_type: relative
+        instances_per_week: 2
+        instances_per_day: 1
+        before:
+            activity_type: Lunch
+            relative_within:
+                value: 30
+                unit: minute
+        duration:
+            value: 10
+            unit: minute
+    
+    # ==== Measurement activities ====
+    - activity:
+        name: Weight_measurement
+        scheduling_type: relative
+        instances_per_week: 7
+        instances_per_day: 1
+        before:
+            activity_type: Breakfast
+            relative_within:
+                value: 15
+                unit: minute
+        duration:
+            value: 5
+            unit: minute
+
+    - activity:
+        name: BP_measurement_1
+        scheduling_type: relative
+        instances_per_week: 7
+        instances_per_day: 1
+        before:
+            activity_type: Breakfast
+            relative_within:
+                value: 15
+                unit: minute
+        duration:
+            value: 10
+            unit: minute
+
+    - activity:
+        name: BP_measurement_2
+        scheduling_type: relative
+        instances_per_week: 7
+        instances_per_day: 1
+        before:
+            activity_type: Lunch
+            relative_within:
+                value: 15
+                unit: minute
+        duration:
+            value: 10
+            unit: minute
+
+    - activity:
+        name: BP_measurement_3
+        scheduling_type: relative
+        instances_per_week: 7
+        instances_per_day: 1
+        before:
+            activity_type: Dinner
+            relative_within:
+                value: 15
+                unit: minute
+        duration:
+            value: 10
+            unit: minute  
+
+
+

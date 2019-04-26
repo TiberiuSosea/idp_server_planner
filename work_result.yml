@@ -1,0 +1,533 @@
+cost: 5992790
+planned_activity_list:
+- activity_instance:
+    activity_type: TV_series1
+    interval:
+      day: 1
+      end: '17:00'
+      start: '16:00'
+- activity_instance:
+    activity_type: TV_series2
+    interval:
+      day: 2
+      end: '17:00'
+      start: '16:00'
+- activity_instance:
+    activity_type: TV_series3
+    interval:
+      day: 3
+      end: '17:00'
+      start: '16:00'
+- activity_instance:
+    activity_type: TV_series4
+    interval:
+      day: 4
+      end: '17:00'
+      start: '16:00'
+- activity_instance:
+    activity_type: TV_series5
+    interval:
+      day: 5
+      end: '17:00'
+      start: '16:00'
+- activity_instance:
+    activity_type: TV_series6
+    interval:
+      day: 6
+      end: '17:00'
+      start: '16:00'
+- activity_instance:
+    activity_type: TV_series7
+    interval:
+      day: 7
+      end: '17:00'
+      start: '16:00'
+- activity_instance:
+    activity_type: Haircut
+    interval:
+      day: 1
+      end: '12:00'
+      start: '11:00'
+- activity_instance:
+    activity_type: Doctor_visit
+    interval:
+      day: 2
+      end: '13:00'
+      start: '12:00'
+- activity_instance:
+    activity_type: Walk
+    interval:
+      day: 4
+      end: '13:00'
+      start: '11:00'
+- activity_instance:
+    activity_type: Bike_ride
+    interval:
+      day: 5
+      end: '12:00'
+      start: '10:00'
+- activity_instance:
+    activity_type: Weight_measurement
+    interval:
+      day: 1
+      end: '7:05'
+      start: '7:00'
+- activity_instance:
+    activity_type: Weight_measurement
+    interval:
+      day: 2
+      end: '7:05'
+      start: '7:00'
+- activity_instance:
+    activity_type: Weight_measurement
+    interval:
+      day: 3
+      end: '7:05'
+      start: '7:00'
+- activity_instance:
+    activity_type: Weight_measurement
+    interval:
+      day: 4
+      end: '7:05'
+      start: '7:00'
+- activity_instance:
+    activity_type: Weight_measurement
+    interval:
+      day: 5
+      end: '7:05'
+      start: '7:00'
+- activity_instance:
+    activity_type: Weight_measurement
+    interval:
+      day: 6
+      end: '7:05'
+      start: '7:00'
+- activity_instance:
+    activity_type: Weight_measurement
+    interval:
+      day: 7
+      end: '7:05'
+      start: '7:00'
+- activity_instance:
+    activity_type: BP_measurement_1
+    interval:
+      day: 1
+      end: '7:15'
+      start: '7:05'
+- activity_instance:
+    activity_type: BP_measurement_1
+    interval:
+      day: 2
+      end: '7:15'
+      start: '7:05'
+- activity_instance:
+    activity_type: BP_measurement_1
+    interval:
+      day: 3
+      end: '7:15'
+      start: '7:05'
+- activity_instance:
+    activity_type: BP_measurement_1
+    interval:
+      day: 4
+      end: '7:15'
+      start: '7:05'
+- activity_instance:
+    activity_type: BP_measurement_1
+    interval:
+      day: 5
+      end: '7:15'
+      start: '7:05'
+- activity_instance:
+    activity_type: BP_measurement_1
+    interval:
+      day: 6
+      end: '7:15'
+      start: '7:05'
+- activity_instance:
+    activity_type: BP_measurement_1
+    interval:
+      day: 7
+      end: '7:15'
+      start: '7:05'
+- activity_instance:
+    activity_type: BP_measurement_2
+    interval:
+      day: 1
+      end: '7:25'
+      start: '7:15'
+- activity_instance:
+    activity_type: BP_measurement_2
+    interval:
+      day: 2
+      end: '7:25'
+      start: '7:15'
+- activity_instance:
+    activity_type: BP_measurement_2
+    interval:
+      day: 3
+      end: '7:25'
+      start: '7:15'
+- activity_instance:
+    activity_type: BP_measurement_2
+    interval:
+      day: 4
+      end: '7:25'
+      start: '7:15'
+- activity_instance:
+    activity_type: BP_measurement_2
+    interval:
+      day: 5
+      end: '7:25'
+      start: '7:15'
+- activity_instance:
+    activity_type: BP_measurement_2
+    interval:
+      day: 6
+      end: '7:25'
+      start: '7:15'
+- activity_instance:
+    activity_type: BP_measurement_2
+    interval:
+      day: 7
+      end: '7:25'
+      start: '7:15'
+- activity_instance:
+    activity_type: BP_measurement_3
+    interval:
+      day: 1
+      end: '7:35'
+      start: '7:25'
+- activity_instance:
+    activity_type: BP_measurement_3
+    interval:
+      day: 2
+      end: '7:35'
+      start: '7:25'
+- activity_instance:
+    activity_type: BP_measurement_3
+    interval:
+      day: 3
+      end: '7:35'
+      start: '7:25'
+- activity_instance:
+    activity_type: BP_measurement_3
+    interval:
+      day: 4
+      end: '7:35'
+      start: '7:25'
+- activity_instance:
+    activity_type: BP_measurement_3
+    interval:
+      day: 5
+      end: '7:35'
+      start: '7:25'
+- activity_instance:
+    activity_type: BP_measurement_3
+    interval:
+      day: 6
+      end: '7:35'
+      start: '7:25'
+- activity_instance:
+    activity_type: BP_measurement_3
+    interval:
+      day: 7
+      end: '7:35'
+      start: '7:25'
+- activity_instance:
+    activity_type: Dinner
+    interval:
+      day: 1
+      end: '8:35'
+      start: '7:35'
+- activity_instance:
+    activity_type: Dinner
+    interval:
+      day: 2
+      end: '8:35'
+      start: '7:35'
+- activity_instance:
+    activity_type: Dinner
+    interval:
+      day: 3
+      end: '8:35'
+      start: '7:35'
+- activity_instance:
+    activity_type: Dinner
+    interval:
+      day: 4
+      end: '8:35'
+      start: '7:35'
+- activity_instance:
+    activity_type: Dinner
+    interval:
+      day: 5
+      end: '8:35'
+      start: '7:35'
+- activity_instance:
+    activity_type: Dinner
+    interval:
+      day: 6
+      end: '8:35'
+      start: '7:35'
+- activity_instance:
+    activity_type: Dinner
+    interval:
+      day: 7
+      end: '8:35'
+      start: '7:35'
+- activity_instance:
+    activity_type: Breakfast
+    interval:
+      day: 1
+      end: '9:05'
+      start: '8:35'
+- activity_instance:
+    activity_type: Breakfast
+    interval:
+      day: 2
+      end: '9:05'
+      start: '8:35'
+- activity_instance:
+    activity_type: Breakfast
+    interval:
+      day: 3
+      end: '9:05'
+      start: '8:35'
+- activity_instance:
+    activity_type: Breakfast
+    interval:
+      day: 4
+      end: '9:05'
+      start: '8:35'
+- activity_instance:
+    activity_type: Breakfast
+    interval:
+      day: 5
+      end: '9:05'
+      start: '8:35'
+- activity_instance:
+    activity_type: Breakfast
+    interval:
+      day: 6
+      end: '9:05'
+      start: '8:35'
+- activity_instance:
+    activity_type: Breakfast
+    interval:
+      day: 7
+      end: '9:05'
+      start: '8:35'
+- activity_instance:
+    activity_type: Lunch
+    interval:
+      day: 1
+      end: '10:05'
+      start: '9:05'
+- activity_instance:
+    activity_type: Lunch
+    interval:
+      day: 2
+      end: '10:05'
+      start: '9:05'
+- activity_instance:
+    activity_type: Lunch
+    interval:
+      day: 3
+      end: '10:05'
+      start: '9:05'
+- activity_instance:
+    activity_type: Lunch
+    interval:
+      day: 4
+      end: '10:05'
+      start: '9:05'
+- activity_instance:
+    activity_type: Lunch
+    interval:
+      day: 5
+      end: '13:00'
+      start: '12:00'
+- activity_instance:
+    activity_type: Lunch
+    interval:
+      day: 6
+      end: '10:05'
+      start: '9:05'
+- activity_instance:
+    activity_type: Lunch
+    interval:
+      day: 7
+      end: '10:05'
+      start: '9:05'
+- activity_instance:
+    activity_type: Medication1
+    interval:
+      day: 1
+      end: '10:15'
+      start: '10:05'
+- activity_instance:
+    activity_type: Medication1
+    interval:
+      day: 2
+      end: '10:15'
+      start: '10:05'
+- activity_instance:
+    activity_type: Medication1
+    interval:
+      day: 3
+      end: '10:15'
+      start: '10:05'
+- activity_instance:
+    activity_type: Health_exercise_1
+    interval:
+      day: 1
+      end: '10:45'
+      start: '10:15'
+- activity_instance:
+    activity_type: Health_exercise_1
+    interval:
+      day: 2
+      end: '10:45'
+      start: '10:15'
+- activity_instance:
+    activity_type: Health_exercise_1
+    interval:
+      day: 3
+      end: '10:45'
+      start: '10:15'
+- activity_instance:
+    activity_type: Health_exercise_3
+    interval:
+      day: 3
+      end: '11:50'
+      start: '10:50'
+- activity_instance:
+    activity_type: Health_exercise_3
+    interval:
+      day: 4
+      end: '14:00'
+      start: '13:00'
+- activity_instance:
+    activity_type: Health_exercise_3
+    interval:
+      day: 5
+      end: '14:00'
+      start: '13:00'
+- activity_instance:
+    activity_type: Medication2
+    interval:
+      day: 1
+      end: '10:55'
+      start: '10:45'
+- activity_instance:
+    activity_type: Medication2
+    interval:
+      day: 2
+      end: '10:55'
+      start: '10:45'
+- activity_instance:
+    activity_type: Health_exercise_2
+    interval:
+      day: 2
+      end: '14:00'
+      start: '13:00'
+- activity_instance:
+    activity_type: Health_exercise_2
+    interval:
+      day: 4
+      end: '18:35'
+      start: '17:35'
+planning_summary:
+- activity_type: TV_series1
+  planned_instances: 1
+  total_instances: 1
+  unplanned_instances: 0
+- activity_type: TV_series2
+  planned_instances: 1
+  total_instances: 1
+  unplanned_instances: 0
+- activity_type: TV_series3
+  planned_instances: 1
+  total_instances: 1
+  unplanned_instances: 0
+- activity_type: TV_series4
+  planned_instances: 1
+  total_instances: 1
+  unplanned_instances: 0
+- activity_type: TV_series5
+  planned_instances: 1
+  total_instances: 1
+  unplanned_instances: 0
+- activity_type: TV_series6
+  planned_instances: 1
+  total_instances: 1
+  unplanned_instances: 0
+- activity_type: TV_series7
+  planned_instances: 1
+  total_instances: 1
+  unplanned_instances: 0
+- activity_type: Haircut
+  planned_instances: 1
+  total_instances: 1
+  unplanned_instances: 0
+- activity_type: Doctor_visit
+  planned_instances: 1
+  total_instances: 1
+  unplanned_instances: 0
+- activity_type: Walk
+  planned_instances: 1
+  total_instances: 1
+  unplanned_instances: 0
+- activity_type: Bike_ride
+  planned_instances: 1
+  total_instances: 1
+  unplanned_instances: 0
+- activity_type: Breakfast
+  planned_instances: 7
+  total_instances: 7
+  unplanned_instances: 0
+- activity_type: Lunch
+  planned_instances: 7
+  total_instances: 7
+  unplanned_instances: 0
+- activity_type: Dinner
+  planned_instances: 7
+  total_instances: 7
+  unplanned_instances: 0
+- activity_type: Health_exercise_1
+  planned_instances: 3
+  total_instances: 3
+  unplanned_instances: 0
+- activity_type: Health_exercise_2
+  planned_instances: 2
+  total_instances: 2
+  unplanned_instances: 0
+- activity_type: Health_exercise_3
+  planned_instances: 3
+  total_instances: 3
+  unplanned_instances: 0
+- activity_type: Medication1
+  planned_instances: 3
+  total_instances: 3
+  unplanned_instances: 0
+- activity_type: Medication2
+  planned_instances: 2
+  total_instances: 2
+  unplanned_instances: 0
+- activity_type: Weight_measurement
+  planned_instances: 7
+  total_instances: 7
+  unplanned_instances: 0
+- activity_type: BP_measurement_1
+  planned_instances: 7
+  total_instances: 7
+  unplanned_instances: 0
+- activity_type: BP_measurement_2
+  planned_instances: 7
+  total_instances: 7
+  unplanned_instances: 0
+- activity_type: BP_measurement_3
+  planned_instances: 7
+  total_instances: 7
+  unplanned_instances: 0
